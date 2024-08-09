@@ -120,10 +120,10 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const title20 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
         const editOptions20 = await performRightClickOptionByTitle(newPage, selector7, title20);
         //Testing code
-        console.log("CCCCCCCCCC");
+        console.log("PPPPPPPPPP");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("DDDDDDDDDD");
+        console.log("QQQQQQQQQQ");
         console.log(''); // This logs an empty line, effectively skipping a line
         pasteIntoSketchFunction(editOptions20, newPage);
         ////////////////////////////////////////////////////////////////////////////
@@ -136,9 +136,9 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         await waitForEnter();
         // await selectOkButton(newPage);
         await searchAndClickTransform(newPage);
-        console.log("After searchAndClickTransform");
+        // console.log("After searchAndClickTransform");
         await waitForEnter();
-        console.log("After searchAndClickTransform");
+        // console.log("After searchAndClickTransform");
         ////////////////////////////////////////////////////////////////////////////
 
 
@@ -147,72 +147,71 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const selector9 = 'div[data-id="zUc3/N14UtKVlcJg"]'; // Replace with the appropriate selector
         const title9 = '(5) Extrude 3 PLAY(2.00) did not regenerate properly: No merge scope selected.<br>1 missing selection';
         const editOptions9 = await performRightClickOptionByTitle(newPage, selector9, title9);
-        console.log("SSSSSSSSSSS");
+        console.log("RRRRRRRRRRR");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("TTTTTTTTTTT");
+        console.log("SSSSSSSSSSSS");
         console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions9, newPage);
         ////////////////////////////////////////////////////////////////////////////
 
 
-        console.log("UUUUUUUUUUU");
+        console.log("TTTTTTTTTTTT");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage)
-        console.log("VVVVVVVVVVV");
+        console.log("UUUUUUUUUUUU");
         console.log(''); // This logs an empty line, effectively skipping a line
 
 
         //Working on (6) Sketch 2(1.04)
         ////////////////////////////////////////////////////////////////////////////
-        console.log("UUUUUUUUUUU");
+        console.log("VVVVVVVVVVV");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("VVVVVVVVVVV");
+        console.log("WWWWWWWWWWW");
         console.log(''); // This logs an empty line, effectively skipping a line
         const selector10 = 'div[data-id="rscxt6ouKl+W1w6N"]'; // Replace with the appropriate selector
         const title10 = '(6) Sketch 2(1.04) did not regenerate properly: Select a sketch plane.<br>1 missing selection';
         console.log('Right-clicking on the specified element.');
         const editOptions10 = await performRightClickOptionByTitle(newPage, selector10, title10);
-        console.log("WWWWWWWWWWW");
+        console.log("XXXXXXXXXXX");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("XXXXXXXXXXX");
+        console.log("YYYYYYYYYYY");
         console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions10, newPage);
         ////////////////////////////////////////////////////////////////////////////
 
 
-        console.log("YYYYYYYYYYY");
+        console.log("ZZZZZZZZZZZ");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage);
-        console.log("ZZZZZZZZZZZ");
+        console.log("AAAAAAAAAAA");
         console.log(''); // This logs an empty line, effectively skipping a line
 
 
         ////////////////////////////////////////////////////////////////////////////
         // WORKING ON NEW CODE
-        console.log("YYYYYYYYYYY");
+        console.log("BBBBBBBBBBB");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("ZZZZZZZZZZZ");
+        console.log("CCCCCCCCCCC");
         console.log(''); // This logs an empty line, effectively skipping a line
         console.log('Right-clicking on the specified element.');
         const editOptions2 = await performRightClickOptionByTitle(newPage, selector1, title1);
-        console.log(editOptions2);
-        console.log("CCCCCCCCCC");
+        console.log("DDDDDDDDDDD");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("DDDDDDDDDD");
+        console.log("EEEEEEEEEEE");
         console.log(''); // This logs an empty line, effectively skipping a line
         copySketchFunction(editOptions2, newPage);
         // Select sketch to click or unclick, good code to select and unselect
-        console.log("CCCCCCCCCC");
+        console.log("FFFFFFFFFFF");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("DDDDDDDDDD");
+        console.log("GGGGGGGGGGG");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         //We get an error here, because the title7 and selector7 just changed. 
@@ -220,9 +219,9 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const title22 = '(6) Sketch 2(1.04)'; // Replace with the desired title
         const editOptions22 = await performRightClickOptionByTitle(newPage, selector10, title22);
         //Testing code
-        console.log("CCCCCCCCCC");
+        console.log("HHHHHHHHHH");
         await waitForEnter();
-        console.log("DDDDDDDDDD");
+        console.log("IIIIIIIIII");
         pasteIntoSketchFunction(editOptions22, newPage);
         ////////////////////////////////////////////////////////////////////////////
         await waitForEnter();
@@ -242,37 +241,37 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const selector11 = 'div[data-id="gdrROUTBVHLLvba1"]'; // Replace with the appropriate selector
         const title11 = 'Extrude 1 did not regenerate properly: Select face or sketch region to extrude.<br>2 missing selections';
         const editOptions11 = await performRightClickOptionByTitle(newPage, selector11, title11);
-        console.log("AAAAAAAAAAA");
+        console.log("JJJJJJJJJJJ");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("BBBBBBBBBBB");
+        console.log("KKKKKKKKKKK");
         console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions11, newPage);
         ////////////////////////////////////////////////////////////////////////////
 
 
-        console.log("CCCCCCCCCCC");
+        console.log("LLLLLLLLLLL");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage);
-        console.log("DDDDDDDDDDDD");
+        console.log("MMMMMMMMMMM");
         console.log(''); // This logs an empty line, effectively skipping a line
 
 
         //Working on Fillet 1
         ////////////////////////////////////////////////////////////////////////////
-        console.log("CCCCCCCCCCC");
+        console.log("NNNNNNNNNNNN");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("DDDDDDDDDDDD");
+        console.log("OOOOOOOOOOOO");
         console.log(''); // This logs an empty line, effectively skipping a line
         const selector12 = 'div[data-id="S2gcrVk07xQzvvV1"]'; // Replace with the appropriate selector
         const title12 = 'Fillet 1 did not regenerate properly: Select edges or faces to fillet.<br>1 missing selection';
         const editOptions12 = await performRightClickOptionByTitle(newPage, selector12, title12);
-        console.log("EEEEEEEEEEE");
+        console.log("PPPPPPPPPPPP");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("FFFFFFFFFFF");
+        console.log("QQQQQQQQQQQQ");
         console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions12, newPage);
         ////////////////////////////////////////////////////////////////////////////

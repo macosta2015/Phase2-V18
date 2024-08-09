@@ -27,12 +27,6 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         // Launch browser and navigate to the document
         const newPage = await launchBrowserAndNavigateToDocument(); // Ensure this returns a newPage object
 
-        // Call the selectCancelButton
-        await selectCancelButton(newPage);
-
-        // Call the selectOkButton
-        await selectOkButton(newPage);
-
 
         //Working on (2) Extrude 1(4.00)
         ////////////////////////////////////////////////////////////////////////////
@@ -40,8 +34,12 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const title = '(2) Extrude 1(4.00) did not regenerate properly: Select face or sketch region to extrude.'; // Replace with the desired title
         const editOptions3 = await performRightClickOptionByTitle(newPage, selector, title);
         console.log("AAAAAAAAAA");
+        console.log(''); // This logs an empty line, effectively skipping a line
+
+
         await waitForEnter();
         console.log("BBBBBBBBBB");
+        console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions3, newPage);
         ////////////////////////////////////////////////////////////////////////////
 
@@ -55,9 +53,11 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         ///////WORKING, NEED TO CHANGE THE (3) Extrude Sketch(1.03)
         ////////////////////////////////////////////////////////////////////////////
         console.log("CCCCCCCCCC");
+        console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage);
         console.log("DDDDDDDDDD");
+        console.log(''); // This logs an empty line, effectively skipping a line
         const selector7 = 'div[data-id="AJC+8X/uU1MWWXEK"]'; // Replace with the appropriate selector
         const title7 = '(3) Extrude Sketch(1.03) did not regenerate properly: Select a sketch plane.'; // Replace with the desired title
         const editOptions7 = await performRightClickOptionByTitle(newPage, selector7, title7);
@@ -504,6 +504,14 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
 
         //////////////////// Code to click Enter
         // await newPage.keyboard.press('Enter');
+        ////////////////////
+
+        //////////////////// Code to click  selectCancelButton
+        // await selectCancelButton(newPage);
+        ////////////////////
+
+        //////////////////// Code to click selectOkButton
+        // await selectOkButton(newPage);
         ////////////////////
 
 

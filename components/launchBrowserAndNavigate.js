@@ -73,8 +73,9 @@ async function launchBrowserAndNavigateToDocument() {
         }
     }, OnShapefileName); // Pass OnShapefileName as an argument
 
-    await new Promise(resolve => setTimeout(resolve, 3000));
-    console.log('Waited for 3 seconds.');
+    /////If the code breaks, please extend the timer
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    console.log('Waited for 5 seconds.');
 
     return newPage; // Return the new page for further operations if needed
 }

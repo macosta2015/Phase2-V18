@@ -252,9 +252,7 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         ////////////////////////////////////////////////////////////////////////////
         const selector11 = 'div[data-id="gdrROUTBVHLLvba1"]'; // Replace with the appropriate selector
         const title11 = 'Extrude 1 did not regenerate properly: Select face or sketch region to extrude.<br>2 missing selections';
-        console.log('Right-clicking on the specified element.');
         const editOptions11 = await performRightClickOptionByTitle(newPage, selector11, title11);
-        console.log(editOptions11);
         console.log("AAAAAAAAAAA");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();

@@ -87,20 +87,20 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const selector8 = 'div[data-id="mypaWa+39o7YTdnA"]'; // Replace with the appropriate selector
         const title8 = '(4) Extrude 2 did not regenerate properly: Select face or sketch region to extrude.';
         const editOptions8 = await performRightClickOptionByTitle(newPage, selector8, title8);
-        console.log("OOOOOOOOOO");
+        console.log("JJJJJJJJJJ");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("PPPPPPPPPP");
+        console.log("KKKKKKKKKK");
         console.log(''); // This logs an empty line, effectively skipping a line
         editIntoSketchFunction(editOptions8, newPage);
         ////////////////////////////////////////////////////////////////////////////
 
 
-        console.log("QQQQQQQQQQQ");
+        console.log("LLLLLLLLLLL");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage);
-        console.log("RRRRRRRRRRR");
+        console.log("MMMMMMMMMMM");
         console.log(''); // This logs an empty line, effectively skipping a line
 
 
@@ -109,18 +109,16 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const title1 = '(1) Initial Sketch'; // Replace with the desired title
         console.log('Right-clicking on the specified element.');
         const editOptions1 = await performRightClickOptionByTitle(newPage, selector1, title1);
-        console.log("CCCCCCCCCC");
+        console.log("NNNNNNNNNNN");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
-        console.log("DDDDDDDDDD");
+        console.log("OOOOOOOOOOO");
         console.log(''); // This logs an empty line, effectively skipping a line
         copySketchFunction(editOptions1, newPage);
         // Select sketch to click or unclick, good code to select and unselect
-        console.log("PASTE INTO SKETCH");
         await waitForEnter();
         const title20 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
         const editOptions20 = await performRightClickOptionByTitle(newPage, selector7, title20);
-        console.log("PASTE INTO SKETCH");
         //Testing code
         console.log("CCCCCCCCCC");
         console.log(''); // This logs an empty line, effectively skipping a line
@@ -129,7 +127,6 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log(''); // This logs an empty line, effectively skipping a line
         pasteIntoSketchFunction(editOptions20, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        // console.log("Before searchAndClickTransform");
         await waitForEnter();
         // console.log("Before editIntoSketchFunction");
         const title21 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
@@ -138,7 +135,6 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         ////////////////////////////////////////////////////////////////////////////
         await waitForEnter();
         // await selectOkButton(newPage);
-        console.log("Before searchAndClickTransform");
         await searchAndClickTransform(newPage);
         console.log("After searchAndClickTransform");
         await waitForEnter();
@@ -218,32 +214,26 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         await waitForEnter();
         console.log("DDDDDDDDDD");
         console.log(''); // This logs an empty line, effectively skipping a line
-        console.log("PASTE INTO SKETCH");
         await waitForEnter();
         //We get an error here, because the title7 and selector7 just changed. 
         // const selector7 = 'div[data-id="rscxt6ouKl+W1w6N"]'; // Replace with the appropriate selector
         const title22 = '(6) Sketch 2(1.04)'; // Replace with the desired title
         const editOptions22 = await performRightClickOptionByTitle(newPage, selector10, title22);
-        console.log("PASTE INTO SKETCH");
         //Testing code
         console.log("CCCCCCCCCC");
         await waitForEnter();
         console.log("DDDDDDDDDD");
         pasteIntoSketchFunction(editOptions22, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        console.log("Before searchAndClickTransform");
         await waitForEnter();
         const editOptions23 = await performRightClickOptionByTitle(newPage, selector10, title22);
         editIntoSketchFunction(editOptions23, newPage);
         ////////////////////////////////////////////////////////////////////////////
         // console.log("After editIntoSketchFunction");
         await waitForEnter();
-        // console.log("Before searchAndClickTransform");
         ////////WORKING CODE
         await searchAndClickTransform(newPage);
-        // console.log("After searchAndClickTransform");
         await waitForEnter();
-        // console.log("After searchAndClickTransform");
         ////////////////////////////////////////////////////////////////////////////
 
 

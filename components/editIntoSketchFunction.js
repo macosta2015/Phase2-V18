@@ -32,7 +32,7 @@ async function editIntoSketchFunction(editOptions1, newPage) {
             console.error(`${desiredOption2} option not found.`);
         }
 
-        console.log('Function fully resolved.');
+        // console.log('Function fully resolved.');
     } catch (error) {
         console.error('An error occurred:', error);
     }

@@ -4,7 +4,7 @@ async function pasteIntoSketchFunction(editOptions1, newPage) {
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
-        console.log('searchAndClickTransform')
+        console.log('pasteIntoSketchFunction')
         // console.log('Desired option:', desiredOption);
 
         // console.log('Searching for the index of the desired option...');
@@ -33,7 +33,7 @@ async function pasteIntoSketchFunction(editOptions1, newPage) {
             console.error(`${desiredOption} option not found.`);
         }
 
-        console.log('Function fully resolved.');
+        // console.log('Function fully resolved.');
     } catch (error) {
         console.error('An error occurred:', error);
     }

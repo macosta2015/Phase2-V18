@@ -3,7 +3,7 @@ async function copySketchFunction(editOptions3, newPage) {
     try {
         const desiredOption = 'Copy sketch'; // The desired option to choose
         console.log('copySketchFunction')
-        console.log('Desired option:', desiredOption);
+        // console.log('Desired option:', desiredOption);
 
         // Find the index of the desired option
         const desiredOptionIndex = editOptions3.indexOf(desiredOption);
@@ -31,7 +31,7 @@ async function copySketchFunction(editOptions3, newPage) {
             console.error(`${desiredOption} option not found.`);
         }
 
-        console.log('Function fully resolved.');
+        // console.log('Function fully resolved.');
     } catch (error) {
         console.error('An error occurred:', error);
     }

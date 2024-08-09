@@ -4,7 +4,7 @@ async function waitForEnter() {
     const readline = require('readline');
     const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
-    console.log('Please press the Enter key to continue...');
+    // console.log('Please press the Enter key to continue...');
 
     const enterPromise = new Promise(resolve => rl.once('line', () => {
         rl.close(); // Ensure the readline interface is closed

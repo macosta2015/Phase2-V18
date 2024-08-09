@@ -7,10 +7,10 @@ async function copySketchFunction(editOptions3, newPage) {
 
         // Find the index of the desired option
         const desiredOptionIndex = editOptions3.indexOf(desiredOption);
-        console.log('Index of desired option:', desiredOptionIndex);
+        // console.log('Index of desired option:', desiredOptionIndex);
 
         if (desiredOptionIndex !== -1) {
-            console.log('Desired option found.');
+            // console.log('Desired option found.');
 
             // Evaluate the desired option element in the context menu
             const optionElement = await newPage.evaluateHandle((index) => {
@@ -19,7 +19,7 @@ async function copySketchFunction(editOptions3, newPage) {
             }, desiredOptionIndex);
 
             if (optionElement) {
-                console.log('Option element found:', desiredOption);
+                // console.log('Option element found:', desiredOption);
 
                 // Click on the desired option element
                 await optionElement.click();

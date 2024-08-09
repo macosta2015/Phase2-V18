@@ -4,7 +4,8 @@ async function pasteIntoSketchFunction(editOptions1, newPage) {
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
-        console.log('Desired option:', desiredOption);
+        console.log('searchAndClickTransform')
+        // console.log('Desired option:', desiredOption);
 
         // console.log('Searching for the index of the desired option...');
         const desiredOptionIndex = editOptions1.indexOf(desiredOption);

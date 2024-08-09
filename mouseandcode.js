@@ -129,14 +129,13 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log(''); // This logs an empty line, effectively skipping a line
         pasteIntoSketchFunction(editOptions20, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        console.log("Before searchAndClickTransform");
+        // console.log("Before searchAndClickTransform");
         await waitForEnter();
-        console.log("Before editIntoSketchFunction");
+        // console.log("Before editIntoSketchFunction");
         const title21 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
         const editOptions21 = await performRightClickOptionByTitle(newPage, selector7, title21);
         editIntoSketchFunction(editOptions21, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        console.log("After editIntoSketchFunction");
         await waitForEnter();
         // await selectOkButton(newPage);
         console.log("Before searchAndClickTransform");
@@ -237,14 +236,14 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const editOptions23 = await performRightClickOptionByTitle(newPage, selector10, title22);
         editIntoSketchFunction(editOptions23, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        console.log("After editIntoSketchFunction");
+        // console.log("After editIntoSketchFunction");
         await waitForEnter();
-        console.log("Before searchAndClickTransform");
+        // console.log("Before searchAndClickTransform");
         ////////WORKING CODE
         await searchAndClickTransform(newPage);
-        console.log("After searchAndClickTransform");
+        // console.log("After searchAndClickTransform");
         await waitForEnter();
-        console.log("After searchAndClickTransform");
+        // console.log("After searchAndClickTransform");
         ////////////////////////////////////////////////////////////////////////////
 
 
@@ -348,7 +347,6 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log(editOptions4);
 
         // Perform the edit function
-        console.log('editIntoSketchFunction')
         editIntoSketchFunction(editOptions4, newPage);
 
         console.log('Waiting 40 seconds after edit.');
